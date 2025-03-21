@@ -172,3 +172,16 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# Project specific
+output/
+.DS_Store
+venv/
+.mypy_cache/
+.pytest_cache/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/

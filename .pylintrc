@@ -1,0 +1,25 @@
+[MASTER]
+load-plugins=pylint.extensions.docparams
+
+[MESSAGES CONTROL]
+disable=
+    missing-module-docstring,
+    missing-class-docstring,
+    missing-function-docstring,
+    too-few-public-methods,
+    too-many-arguments,
+    too-many-instance-attributes,
+    no-name-in-module,
+    fixme,
+    broad-except
+
+[FORMAT]
+max-line-length=100
+
+[DESIGN]
+max-attributes=12
+
+[SIMILARITIES]
+min-similarity-lines=7
+ignore-comments=yes
+ignore-docstrings=yes 
